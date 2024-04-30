@@ -16,3 +16,11 @@ C. student.greeting()               // Hello!
 D. student["Favorite Teacher"].name // Thomas Powell
 E. student.courseLoad[0]            // CSE 110
 13.
+A. 32               // since integers map to their exact string representation
+B. 1                // since string map to int
+C. 3                // since null equal 0 in int
+D. 3null            // null map to exact string
+E. 4                // true = 1 in int
+F. 0                // since false and null map to 0
+G. 3undefined       // undefined map to string
+H. NaN              // there are no int that undefined map to.
