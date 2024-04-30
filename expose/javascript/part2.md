@@ -24,3 +24,14 @@ E. 4                // true = 1 in int
 F. 0                // since false and null map to 0
 G. 3undefined       // undefined map to string
 H. NaN              // there are no int that undefined map to.
+14.
+A. true     // since string map to number 2 > 1
+B. false    // They compare the lexicographically of '2' and '1', not number
+C. true     // after conversion '2' to 2, it is equal
+D. false    // string is not equal number type
+E. false    // true convert to '1', so not equal
+F. true     // both are true, thus it return true.
+15. The different between == and === is that:
+== compares twp variables after doing type conversion if necessary.
+=== just compare without conversion.
+
