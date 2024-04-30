@@ -10,4 +10,9 @@
 10. 3 // const just not allow you to change, but you can print
 11. [ 50, 100, 150 ] // it not count as change array? and the discountedPrice always create new discountedPrice every loop so it fine.
 12.
+A. student.name                     // Sarah
+B. student["Grad Year"]             // 2022
+C. student.greeting()               // Hello!
+D. student["Favorite Teacher"].name // Thomas Powell
+E. student.courseLoad[0]            // CSE 110
 13.
