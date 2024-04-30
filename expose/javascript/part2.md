@@ -35,3 +35,14 @@ F. true     // both are true, thus it return true.
 == compares twp variables after doing type conversion if necessary.
 === just compare without conversion.
 
+17. Step by steps:
+first we pass [1, 2, 3] in to function with dosomething as callback parameters.
+the function take array and pass to it with function doSomething to the newarray create with in the function.
+doSomething mutiply num by 2.
+therefore, the new array that return is [2, 4, 6], which is the double of original array.
+
+19. 
+1   // immediately print
+4   // immediately print after 1
+3   // print as soon as possible after stack is clear
+2   // print after 1 second.
